@@ -1,0 +1,67 @@
+
+/* sets the background sizing and placement and image */
+
+.body {
+	width: 100%;
+	height: 500px;
+	background-image:url('morning.jpg');
+	margin: 0;
+	display: inline;
+	text-align: center;
+	position: absolute;
+}
+
+.header {
+	width:;
+	height: auto;
+	background-color: white;
+	padding: 10px 50px;
+	text-align: center;
+	display: inline-block;
+	border-radius: 3px;
+	text-align: center;
+}
+
+.header img {
+	width: 100%;
+	height: auto;
+	border-radius: 3px;
+	border: solid black;
+	top: 0;
+}
+
+
+/* styles and places the user greeting */
+
+h1 {
+	font-size: 50px;
+	margin-top: 150px;
+	margin-left: 400px;
+	background-color:#231F3D;
+	color: white;
+	margin-left: 375px;
+	top:235px;
+	width: auto;
+	position: absolute;
+	padding: 3px;
+}
+
+
+/* styles and places the clock to the center of the screen */
+
+.clockStyle {
+	background-color:#231F3D;
+	border:#999 5px;
+	padding:6px 5px 25px;
+	color:#28FE21;
+	font-family: courier, monospace;
+    font-size:50px;
+	letter-spacing: 5px;
+	position: absolute;
+	width:500px;
+	height: auto;
+	margin-left: 375px;
+	top:200px;
+
+
+}
